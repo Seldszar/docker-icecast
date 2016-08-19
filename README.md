@@ -2,16 +2,15 @@
 
 [![dockeri.co](http://dockeri.co/image/seldszar/icecast)](https://registry.hub.docker.com/seldszar/icecast/)
 
-[![GitHub issues](https://img.shields.io/github/issues/seldszar/docker-icecast.svg "GitHub issues")](https://github.com/seldszar/docker-icecast)
-[![GitHub stars](https://img.shields.io/github/stars/seldszar/docker-icecast.svg "GitHub stars")](https://github.com/seldszar/docker-icecast)
+[![GitHub issues](https://img.shields.io/github/issues/seldszar/docker-icecast.svg "GitHub issues")](https://github.com/seldszar/docker-icecast) [![GitHub stars](https://img.shields.io/github/stars/seldszar/docker-icecast.svg "GitHub stars")](https://github.com/seldszar/docker-icecast)
 
 Another Icecast Docker image, with some bonuses.
 
 ## Usage
 
-# How to use this image
+### How to use this image
 
-## Create a `Dockerfile` in your Icecast project
+Create a `Dockerfile` in your Icecast project
 
 ```dockerfile
 FROM seldszar/icecast:onbuild
