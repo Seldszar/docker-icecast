@@ -9,7 +9,7 @@ Another Icecast Docker image, with some bonuses.
 ## Supported tags and respective `Dockerfile` links
 
  - [`2.4.3`, `2.4`, `2`, `latest` (2.4/Dockerfile)](https://github.com/Seldszar/docker-icecast/blob/master/2.4/Dockerfile)
- - [`onbuild-2.4.3`, `onbuild-2.4`, `onbuild-2`, `onbuild` (2.4/onbuild//Dockerfile)](https://github.com/Seldszar/docker-icecast/blob/master/2.4/onbuild/Dockerfile)
+ - [`2.4.3-onbuild`, `2.4-onbuild`, `2-onbuild`, `onbuild` (2.4/onbuild//Dockerfile)](https://github.com/Seldszar/docker-icecast/blob/master/2.4/onbuild/Dockerfile)
 
 ## How to use this image
 
