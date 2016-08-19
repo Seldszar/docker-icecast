@@ -1,7 +1,6 @@
 FROM buildpack-deps:jessie
 
 # Set environment variables
-ENV DEBIAN_FRONTEND noninteractive
 ENV GOSU_VERSION 1.7
 ENV ICECAST_VERSION 2.4.3
 
