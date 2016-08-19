@@ -47,7 +47,7 @@ $ docker run -it --rm --name my-running-script -v "$PWD":/etc/icecast2 -w /etc/i
 
 ## Image Variants
 
-The node images come in many flavors, each designed for a specific use case.
+The seldszar/icecast images come in many flavors, each designed for a specific use case.
 
 ### `seldszar/icecast:<version>`
 
@@ -55,7 +55,7 @@ This is the defacto image. If you are unsure about what your needs are, you prob
 
 ### `seldszar/icecast:onbuild`
 
-This image makes building derivative images easier. For most use cases, creating a Dockerfile in the base of your project directory with the line FROM node:onbuild will be enough to create a stand-alone image for your project.
+This image makes building derivative images easier. For most use cases, creating a Dockerfile in the base of your project directory with the line FROM seldszar/icecast:onbuild will be enough to create a stand-alone image for your project.
 
 While the onbuild variant is really useful for "getting off the ground running" (zero to Dockerized in a short period of time), it's not recommended for long-term usage within a project due to the lack of control over when the ONBUILD triggers fire (see also docker/docker#5714, docker/docker#8240, docker/docker#11917).
 
