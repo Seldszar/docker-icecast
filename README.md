@@ -1,6 +1,6 @@
 # Icecast
 
-[![dockeri.co](http://dockeri.co/image/seldszar/icecast)](https://registry.hub.docker.com/seldszar/icecast/)
+[![dockeri.co](http://dockeri.co/image/seldszar/icecast)](https://hub.docker.com/r/seldszar/icecast/)
 
 [![GitHub issues](https://img.shields.io/github/issues/seldszar/docker-icecast.svg "GitHub issues")](https://github.com/seldszar/docker-icecast) [![GitHub stars](https://img.shields.io/github/stars/seldszar/docker-icecast.svg "GitHub stars")](https://github.com/seldszar/docker-icecast)
 
