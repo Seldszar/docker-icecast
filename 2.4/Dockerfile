@@ -32,6 +32,9 @@ RUN wget "http://downloads.xiph.org/releases/icecast/icecast-$ICECAST_VERSION.ta
   && cd .. \
   && rm -r "icecast-$ICECAST_VERSION"
 
+# Configure Icecast user
+# RUN adduser --disabled-password --gecos '' icecast2
+
 # Copy files into container
 COPY docker-entrypoint.sh /
 
