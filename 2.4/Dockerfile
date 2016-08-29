@@ -43,4 +43,4 @@ RUN chmod +x /docker-entrypoint.sh
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
 # Launch Icecast
-CMD ["icecast2", "-c", "/etc/icecast2/icecast.xml"]
+CMD ["icecast", "-c", "/etc/icecast2/icecast.xml"]
